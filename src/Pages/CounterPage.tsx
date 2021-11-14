@@ -22,13 +22,13 @@ const CounterPage: React.FC = () => {
 
   const renderMessage = (): JSX.Element => {
     return ( message.length > 0 ) ? (
-      <>
+      <div>
         { message }
-      </>
+      </div>
     ) : (
-      <>
+      <div>
         { `click to increase ${label}, by some amount ` }
-      </>
+      </div>
     )
   }
 
