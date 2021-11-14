@@ -4,7 +4,7 @@ import CounterPage from './Pages/CounterPage';
 function App() {
   return (
     <>
-      Hello World!
+      <div>Simple Counter</div>
       <CounterPage />
     </>
   );

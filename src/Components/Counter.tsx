@@ -16,7 +16,10 @@ const Counter: React.FC<Props> = (props) => {
 
     return(
       <>
-        <span>
+        <span
+          style={{
+            padding: '0.5rem'
+          }}>
           {label}: {count}
         </span>
         <button onClick={() => handleOnIncrement(1)}>
